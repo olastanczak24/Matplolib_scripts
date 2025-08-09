@@ -27,6 +27,5 @@ for (name, lon, lat), size, dy in [(CTA, 200, 0.18), (NAP, 180, 0.18)]:
 
 ax.set_aspect("equal")
 ax.set_axis_off()
-plt.title("Catania i Napoli na tle regionów")
 plt.savefig("sicilia_napoli_geopandas.png", dpi=300, bbox_inches="tight")
 plt.show()
